@@ -8,3 +8,7 @@ console.log(sum(10, 20));
  * You cannot call a FE before definig it.
  * You first have to define a FE to call it
  *  */
+
+let square = (a) => a * a;  // ES6 arrow function
+
+console.log(square(10));
