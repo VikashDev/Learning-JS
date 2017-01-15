@@ -1,9 +1,6 @@
 'use strict';
 
 //  create a normal function in JS
-function add (a, b) {
-    return a+ b;
-}
 
 const res = add(2, 4);
 console.log(res);
@@ -18,3 +15,8 @@ let person = 'Vikash Kumar';
 }
 
 console.log(person);
+
+
+function add (a, b) {
+    return a+ b;
+}
