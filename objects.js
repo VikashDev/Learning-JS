@@ -1,4 +1,24 @@
 // creating objects in JS
+
+// Method 1
+var profile = new Object();
+profile.name = "vikash";
+profile.age = 1;
+profile.location = 'Noida';
+
+
+function information() {
+	console.log("name of player is " + this.name + "& its rank is " + this.rank);
+}
+
+// Attaching function in object
+profile.info = information;
+
+// Call object function
+profile.info();
+
+
+//Method 2
 // first way is to use Object Literal Syntax
 
 let vikash = {
