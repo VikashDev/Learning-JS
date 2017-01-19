@@ -19,7 +19,7 @@ profile.info();
 
 
 //Method 2
-// first way is to use Object Literal Syntax
+// Second way is to use Object Literal Syntax
 
 let vikash = {
     name : 'Vikash Kumar',

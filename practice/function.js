@@ -2,8 +2,6 @@
 
 'use strict';
 
-
-
 let result = (a, b , op) => {
     return result = ((op == 1) ? (a + b) : (a * b));
 }

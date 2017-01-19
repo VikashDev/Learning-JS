@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .demo{
+            display: block;
+            height : 50px;
+            width : 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo" style="background-color: lightpink"></div>
+    <div class="demo" style="background-color: skyblue"></div>
+    <div class="demo" style="background-color: orange"></div>  
+    <script>
+        let nodes = document.querySelectorAll('.demo');
+        let all = Array.from(nodes);
+
+        let changeColor = (el) => {
+            el.style.backgroundColor = 'lightpink';
+            console.log('ht');
+        }
+
+        changeColor(...all);
+
+    </script> 
+</body>
+</html>
